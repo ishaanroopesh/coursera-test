@@ -1,0 +1,10 @@
+.row{
+	margin-bottom: 10px;
+}
+
+.row > div{
+	background-color: #ffffff;
+	border: 2px solid #3399ff;
+	padding: 5px;
+	text-align: center;
+}
