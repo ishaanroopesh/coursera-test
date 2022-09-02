@@ -1,10 +1,6 @@
-.row{
-	margin-bottom: 10px;
-}
-
-.row > div{
-	background-color: #ffffff;
-	border: 2px solid #3399ff;
-	padding: 5px;
-	text-align: center;
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: oxygen;
 }
