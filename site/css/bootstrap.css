@@ -3786,7 +3786,7 @@ textarea.form-control-lg {
 .navbar > .container-lg,
 .navbar > .container-xl,
 .navbar > .container-xxl {
-  display: flex;
+  display: block;
   flex-wrap: inherit;
   align-items: center;
   justify-content: space-between;
@@ -3952,7 +3952,7 @@ textarea.form-control-lg {
     flex-basis: auto;
   }
   .navbar-expand-md .navbar-toggler {
-    display: none;
+    display: block;
   }
   .navbar-expand-md .offcanvas {
     position: static;
