@@ -51,6 +51,130 @@ body{
 	vertical-align: middle;
 }
 
-div{
-	display: block;
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a{
+	color: #951c49;
+	text-align: center;
+}
+
+#nav-list a:hover{
+	background: #e7e7e7;	
+}
+
+#nav-list a span{
+	font-size: 1.8em;
+}
+
+#phone{
+	margin-top: 5px;
+}
+
+#phone a{
+	text-align: right;
+	padding-bottom: 0px;
+}
+
+#phone div{
+	color: #557c3e;
+	text-align: right;
+	padding-right: 25px;
+}
+
+.navbar-header button.navbar-toggler, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggler{
+	clear: both;
+	margin-top: -30px;
+}
+
+.jumbotron{
+	margin-top: 5px;
+}
+
+@media (min-width: 1200px){
+	.container-fluid .jumbotron {
+    background: url('https://raw.githubusercontent.com/ishaanroopesh/fullstack-course4/master/examples/Lecture34/after/images/jumbotron_1200.jpg') no-repeat center;
+    height: 675px;
+  	}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	#logo-img{
+		background: url('../images/restaurant-logo_medium.png') no-repeat;
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0px;
+	}
+
+	.container-fluid .jumbotron {
+    background: url('https://raw.githubusercontent.com/ishaanroopesh/fullstack-course4/master/examples/Lecture34/after/images/jumbotron_992.jpg') no-repeat center;
+    height: 558px;
+  	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.navbar-brand h1{	
+		font-size: 5vw;
+	}
+
+	#call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0px;
+    border-radius: 0;
+    background-color: #f6b319;
+    color: #951c49;
+    text-align: left;
+  	}
+
+  	.container-fluid .jumbotron {
+    background: url('https://raw.githubusercontent.com/ishaanroopesh/fullstack-course4/master/examples/Lecture34/after/images/jumbotron_768.jpg') no-repeat center;
+    height: 432px;
+  	}
+
+}
+
+@media (max-width: 767px){
+	.navbar-brand{
+		height: 80px;
+		padding-top: 10px;
+	}
+
+	.navbar-brand h1{
+		font-size: 5vw;
+	}
+
+	.navbar-brand p{
+		font-size: 0.6em;
+	}
+
+	.navbar-brand p img{
+		height: 20px;
+	}
+
+	#navbarTogglerDemo2 a{
+		font-size: 1.2em;
+	}
+
+	#navbarTogglerDemo2 a span{
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+	#call-btn > a {
+    font-size: 1.4em;
+    display: block;
+    margin: 0px;
+    border-radius: 0;
+    background-color: #f6b319;
+    color: #951c49;
+    text-align: left;
+  	}
+
 }
